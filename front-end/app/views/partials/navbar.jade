@@ -1,0 +1,9 @@
+.header(ng-controller='NavbarCtrl')
+    ul.nav.nav-pills.pull-right
+        li(ng-class='{active : isActive("/")}')
+            a(ng-href="/") Home
+        li(ng-class='{active : isActive("/about")}')
+            a(ng-href="/about") About
+        li(ng-class='{active : isActive("/contact")}')
+            a(ng-href="/contact") Contact
+    h3.text-muted angular jade stylus {{ getLocation() }}

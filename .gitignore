@@ -6,7 +6,7 @@ app/bower_components
 .idea
 *.iml
 target*.class
-db/*
+db
 
 # Package Files #
 *.jar
@@ -15,3 +15,6 @@ db/*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+*.iml

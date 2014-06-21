@@ -16,8 +16,8 @@
     </parent>
 
     <modules>
-        <module>api</module>
         <module>front-end</module>
+        <module>api</module>
     </modules>
 
 
